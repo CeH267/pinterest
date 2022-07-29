@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="https://raw.githubusercontent.com/karrli/pinterest-clone/master/assets/logo-pinterest.png" alt="logo de pinterest">
+            <div id="buttons">
+                <a href="#" class="active"><button>Inicio</button></a>
+                <a href="#"><button>Hoy</button></a>
+                <a href="#"><button>Crear</button></a>
+            </div>
+        
+            <div id="search">
+                <input id="search-box" type="text" placeholder=" &#xf002; Buscar" style="font-family:Roboto, FontAwesome;">
+            </div>
+            <div id="nav-buttons">
+              <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-commenting " aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="flex-container"> 
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/bee-7250540_640.jpg" alt="bee" />
+            </div>
+        </div>
+      
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/cup-7263953_640.jpg" alt="cup" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/drops-4968242_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/flower-7194038_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/lake-7178316_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/lion-7248726_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/skateboard-7270418_640.jpg"alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/village-7258991_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>   
+                <img class="grande" src="imagenes/wall-7247831_640.jpg" alt="" />
+            </div>   
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/woman-7262808_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/woman-7262808_640.jpg" alt="bee" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+              <img class="chica" src="imagenes/wall-7247831_640.jpg" alt="cup" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+              <img class="grande" src="imagenes/village-7258991_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>  
+                <img class="chica" src="imagenes/skateboard-7270418_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/lion-7248726_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+              <img class="chica" src="imagenes/lake-7178316_640.jpg" alt="" />
+            </div>    
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/flower-7194038_640.jpg"alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+              <img class="chica" src="imagenes/drops-4968242_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+              <img class="grande" src="imagenes/cup-7263953_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/bee-7250540_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/bee-7250540_640.jpg" alt="bee" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/cup-7263953_640.jpg" alt="cup" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/drops-4968242_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/flower-7194038_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/lake-7178316_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/lion-7248726_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/skateboard-7270418_640.jpg"alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/village-7258991_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="grande" src="imagenes/wall-7247831_640.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="chica" src="imagenes/woman-7262808_640.jpg" alt="" />
+            </div>    
+       </div>
+    </div>
+    </main>
+  </body>
+</html>
